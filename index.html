@@ -8,11 +8,11 @@
     <style>
 
 body{
-    background-color: white;
+    background-color: transparent;
 }
   
 #timer {
-  color: #eeeeee;
+  color: #000000;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
@@ -28,32 +28,32 @@ body{
 }
 
 .days {
-  background: #EF2F3C;
+  background: #000000;
 }
 
 .hours {
-  background: #eeeeee;
+  background: #000000;
   color: #183059;
 }
 
 .minutes {
-  background: #276FBF;
+  background: #000000;
 }
 
 .seconds {
-  background: #F0A202;
+  background: #000000;
 }
 
 .numbers {
   font-family: 'Montserrat', sans-serif;
-  color:  #183059;
+  color:  #000000;
   font-size: 4em;
   text-align: center;
 }
 
 .white {
   position: absolute;
-  background:  #eeeeee;
+  background:  #FFDF44;
   height: 85px;
   width: 75px;
   left: 30%;
@@ -62,7 +62,7 @@ body{
 
 .red {
   position: absolute;
-  background:  #EF2F3C;
+  background:  #FFDF44;
   left: 18%;
   top: 9%;
   height: 65px;
@@ -72,7 +72,7 @@ body{
 
 .blue {
   position: absolute;
-  background:  #276FBF;
+  background:  #FFDF44;
   height: 80px;
   width: 80px;
   left: 60%;
@@ -103,7 +103,7 @@ body{
 </body>
 <script>
     const year = new Date().getFullYear();
-const myDate = new Date('Oct 15, 2020 00:00:00');
+const myDate = new Date('Oct 10, 2020 09:30:00');
 console.log(myDate);
 
 // countdown
